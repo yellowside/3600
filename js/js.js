@@ -1,7 +1,7 @@
-﻿/* ---=*--*=*-=*-=-*-=* ?? *---=*--*=*-=*-=-*-=*
+/* ---=*--*=*-=*-=-*-=* 🌹 *---=*--*=*-=*-=-*-=*
 Lizus核心库
 Author: lizus.com
----=*--*=*-=*-=-*-=* ?? *---=*--*=*-=*-=-*-=* */
+---=*--*=*-=*-=-*-=* 🌹 *---=*--*=*-=*-=-*-=* */
 (function(g){
   //为ie9以下浏览器添加Object.create方法
   if (typeof Object.create !== "function") {
@@ -430,9 +430,9 @@ jQuery(function ($){
   $(window).on('scroll',window_scroll);
 })(jQuery);
 
-/* ---=*--*=*-=*-=-*-=* ?? *---=*--*=*-=*-=-*-=*
+/* ---=*--*=*-=*-=-*-=* 🌹 *---=*--*=*-=*-=-*-=*
 侧边栏滚动时固定
----=*--*=*-=*-=-*-=* ?? *---=*--*=*-=*-=-*-=* */
+---=*--*=*-=*-=-*-=* 🌹 *---=*--*=*-=*-=-*-=* */
 (function($){
   var s=$('.sidebar');
   if(s.length<1) return;
@@ -597,3 +597,12 @@ jQuery(function ($){
     $(this).select();
   });
 })(jQuery);
+
+//tongji
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?0388e27ad00b627fe43bd8d8dea61a0b";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
