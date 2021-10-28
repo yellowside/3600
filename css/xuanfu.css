@@ -2,7 +2,7 @@
 @media screen and (max-width: 768px){/* wap */
     .tmall_tab {
         position:fixed;
-        bottom:5rem;
+        bottom:2rem;
         left:.8rem;
         z-index:100;
         width:4.7rem;
@@ -20,7 +20,7 @@
     .tmall_tab {
         position: fixed;
         left: 6%;
-        bottom: 175px;
+        bottom: 50px;
         z-index: 100;
         width:140px;
     }
