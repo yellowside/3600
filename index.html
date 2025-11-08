@@ -2426,10 +2426,7 @@
         <div class="container">
             <p>本网站设计及数据均受版权保护，任何公司及个人不得以任何方式复制，违者将依法追究责任，特此声明。</p>
             <p><span><a href="https://huangbin.net/" rel="nofollow">关于我们</a></span> <span><a href="https://api.qianqi.net/qq/im/?qq=77696199" rel="nofollow">联系我们</a></span> <span><a href="https://api.qianqi.net/qq/im/?qq=77696199" rel="nofollow">友情链接</a></span></p>
-            <p>&copy; 2012-<script>
-                    const currentYear = new Date().getFullYear();
-                    document.write(currentYear);
-                </script> huangbin.net, All Rights Reserved.</p>
+            <p>&copy; 2012-<script>document.write(new Date().getFullYear())</script> huangbin.net, All Rights Reserved.</p>
         </div>
     </footer>
     <section class="fixed-bar">
@@ -2446,48 +2443,6 @@
             });
         });
     </script>
-    <style>.footnote-insite-icon{display:none;}.footnote-insite-text{color:#F9FAFC;}</style>
-    <script>
-    const agentId = "eIjz24RwRL5Kwz0jaog5ukGzfdxcslRr",
-          uidKey = "lj_chat_uid",
-          uidExpire = 864000; // 10天（秒）
-
-    let uid = getCookie(uidKey);
-    if (!uid) {
-        uid = generateUUID();
-        setCookie(uidKey, uid, uidExpire);
-    }
-
-    function generateUUID() {
-        let d = Date.now();
-        if (performance?.now) d += performance.now();
-        return Number('-xxxxxxxxxx'.replace(/x/g, () => (d + Math.random() * 10) % 10 | 0));
-    }
-
-    function setCookie(n, v, s) {
-        const e = new Date();
-        e.setTime(e.getTime() + s * 1000);
-        document.cookie = `${n}=${escape(v)};expires=${e.toGMTString()};path=/`;
-    }
-
-    function getCookie(n) {
-        const m = document.cookie.match(new RegExp("(^| )"+n+"=([^;]*)"));
-        return m ? unescape(m[2]) : null;
-    }
-
-    const scriptEl = document.createElement("script");
-    scriptEl.src = "https://gh.bingdou.com.cn/gh/yellowside/cdnjs/lingjing-agent/1.0.12/index.global.js";
-    scriptEl.onload = () => {
-        const chat = new LingJingAgent.Chat({
-            agentId,
-            uid,
-            container: undefined,
-            entry: { container: undefined, image: undefined }
-        });
-        chat.showEntry();
-    };
-    document.body.appendChild(scriptEl);
-</script>
 <script>
         var _hmt = _hmt || [];
         (function() {
