@@ -23,9 +23,9 @@ a {text-decoration:none;color:#7f8c8d;}
 /* 搜索区域样式*/
 .search-section {text-align:center;margin:40px 0 0 0;}
 .search-container {max-width:800px;margin:0 auto;display:flex;flex-wrap:wrap;gap:10px;align-items:center;}
-.search-select {padding:12px 15px;border-style:solid;border:1px solid #f5f5f5;border-radius:4px;font-size:16px;min-width:120px;}
+.search-select {padding:12px 15px;border-style:solid;border:1px solid #f5f5f5;border-radius:4px;font-size:16px;min-width:110px;}
 .search-input {padding:12px 15px;border-style:solid;border:1px solid #f5f5f5;border-radius:4px;font-size:16px;width:100%;}
-.search-btn {padding:12px 25px;background:white;color:#2c3e50;border:none;border-radius:4px;font-size:16px;cursor:pointer;transition:background 0.3s;}
+.search-btn {padding:11px 25px;background:white;color:#2c3e50;border:none;border-radius:4px;font-size:16px;cursor:pointer;transition:background 0.3s;}
 .search-btn:hover {background:#fe8528;color:#ffffff;}
 .search-hint {margin-top:10px;color:#7f8c8d;font-size:14px;}
 .search-hint a:hover {color:#fe8528;}
@@ -36,16 +36,15 @@ a {text-decoration:none;color:#7f8c8d;}
 .suggest-item:hover,.suggest-item.active {background:#f5f9ff;color:#3498db;}
 .category {margin:40px 0;}
 .category h2 {font-size:18px;color:#34495e;border-left:4px solid #3498db;padding-left:10px;margin-bottom:20px;}
-.site-list {display:flex;flex-wrap:wrap;gap:15px;}
-.site-card {background:white;border-radius:8px;box-shadow:0 2px 5px rgba(0,0,0,0.1);width:calc(20% - 12px);text-align:center;transition:transform 0.3s;}
+.site-list {display:flex;flex-wrap:wrap;margin:0 -7.5px;}
+.site-card {background:white;border-radius:8px;box-shadow:0 2px 5px rgba(0,0,0,0.1);width:calc(20% - 15px);margin:7.5px;text-align:center;transition:transform 0.3s;}
 .site-card:hover {background:#fe8528;transform:translateY(-2px);}
 .site-card a {text-decoration:none;color:#2c3e50;font-size:16px;display:block;padding:15px 10px;}
 .site-card a:hover {color:#ffffff;}
 footer {text-align:center;margin-top:60px;padding:20px 0;border-top:1px solid #ecf0f1;color:#7f8c8d;}
 /* 响应式适配*/
-@media (max-width:1024px) {.site-card {width:calc(25% - 11.25px);}
-}
-@media (max-width:768px) {.site-card {width:calc(33.333% - 10px);}
+@media (max-width:1024px) {.site-card {width:calc(25% - 15px);}}
+@media (max-width:768px) {.site-card {width:calc(33.333% - 15px);}
 .menu {display:none;position:absolute;top:50px;left:0;right:0;background:#fff;flex-direction:column;padding:15px;z-index:999;}
 .menu li {margin:10px 0;margin-left:0;}
 .mobile-menu-btn {display:block;}
@@ -54,7 +53,7 @@ footer {text-align:center;margin-top:60px;padding:20px 0;border-top:1px solid #e
 .search-select,.search-suggest {width:100%;min-width:auto;}
 .search-input {width:100%;}
 }
-@media (max-width:480px) {.site-card {width:calc(50% - 7.5px);}
+@media (max-width:480px) {.site-card {width:calc(50% - 15px);}
 .category h2 {font-size:20px;}
 .site-card a {font-size:14px;}
 .search-btn {width:100%;}
